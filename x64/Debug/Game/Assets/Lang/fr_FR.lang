@@ -1,0 +1,10 @@
+mainmenu.play=Jouer
+mainmenu.settings=Réglages
+mainmenu.credits=Crédits
+mainmenu.quit=Quitter
+mainmenu.example=Exemple d'un texte
+mainmenu.paragraphExample=Très longue ligne\nLigne courte\nSalut
+test.back=Retour
+
+en_US=Anglais (USA)
+fr_FR=Français

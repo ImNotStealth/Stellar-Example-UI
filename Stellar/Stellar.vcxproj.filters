@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Stellar">
+      <UniqueIdentifier>{793d7f68-cc75-4126-a192-bda8f0a50ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stellar">
+      <UniqueIdentifier>{eb440b46-9380-4c45-86b9-b04b46792f12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stellar\ImGui">
+      <UniqueIdentifier>{fd5e5d1e-92dd-456b-acd7-d44c5f7e696a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stellar\ImGui">
+      <UniqueIdentifier>{0eee8bbb-5fe7-4c47-8f56-5704731c8b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stellar\Network">
+      <UniqueIdentifier>{9b7f6120-aec6-4da2-b184-2372a23e7eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stellar\Network">
+      <UniqueIdentifier>{f0881eb4-7ce2-4a43-a7ef-feb755c35497}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Stellar\Core\Game.cpp">
+      <Filter>Source Files\Stellar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Core\Language.cpp">
+      <Filter>Source Files\Stellar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Core\Settings.cpp">
+      <Filter>Source Files\Stellar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Core\AssetManager.cpp">
+      <Filter>Source Files\Stellar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Utils\Easing.cpp">
+      <Filter>Source Files\Stellar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Render\GameSplash.cpp">
+      <Filter>Source Files\Stellar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGui\imgui.cpp">
+      <Filter>Source Files\Stellar\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGui\imgui_demo.cpp">
+      <Filter>Source Files\Stellar\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGui\imgui_draw.cpp">
+      <Filter>Source Files\Stellar\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGui\imgui_tables.cpp">
+      <Filter>Source Files\Stellar\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGui\imgui_widgets.cpp">
+      <Filter>Source Files\Stellar\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGui\imgui-SFML.cpp">
+      <Filter>Source Files\Stellar\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Debug\DebugOverlay.cpp">
+      <Filter>Source Files\Stellar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Utils\Utils.cpp">
+      <Filter>Source Files\Stellar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Utils\SoundHandler.cpp">
+      <Filter>Source Files\Stellar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Render\Animation.cpp">
+      <Filter>Source Files\Stellar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Network\PacketHandler.cpp">
+      <Filter>Source Files\Stellar\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Network\Client.cpp">
+      <Filter>Source Files\Stellar\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Network\Server.cpp">
+      <Filter>Source Files\Stellar\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Utils\MusicHandler.cpp">
+      <Filter>Source Files\Stellar</Filter>
+    </ClCompile>
+    <ClCompile Include="src\JSON\jsoncpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Debug\DebugBox2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Utils\ControllerInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Debug\Tools\ToolControllerInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Render\Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Render\ImageButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Render\Text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Render\MenuButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Render\Checkbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Render\Textbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Render\Paragraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stellar\Render\Slider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Stellar\Core\Common.h">
+      <Filter>Header Files\Stellar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Core\Game.h">
+      <Filter>Header Files\Stellar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Core\GameState.h">
+      <Filter>Header Files\Stellar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Core\Language.h">
+      <Filter>Header Files\Stellar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Core\Settings.h">
+      <Filter>Header Files\Stellar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Core\AssetManager.h">
+      <Filter>Header Files\Stellar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Utils\Easing.h">
+      <Filter>Header Files\Stellar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Render\GameSplash.h">
+      <Filter>Header Files\Stellar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\imconfig.h">
+      <Filter>Header Files\Stellar\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\imconfig-SFML.h">
+      <Filter>Header Files\Stellar\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\imgui.h">
+      <Filter>Header Files\Stellar\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\imgui_internal.h">
+      <Filter>Header Files\Stellar\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\imgui-SFML.h">
+      <Filter>Header Files\Stellar\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\imgui-SFML_export.h">
+      <Filter>Header Files\Stellar\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\imstb_rectpack.h">
+      <Filter>Header Files\Stellar\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\imstb_textedit.h">
+      <Filter>Header Files\Stellar\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImGui\imstb_truetype.h">
+      <Filter>Header Files\Stellar\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Debug\DebugOverlay.h">
+      <Filter>Header Files\Stellar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Utils\Utils.h">
+      <Filter>Header Files\Stellar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Utils\SoundHandler.h">
+      <Filter>Header Files\Stellar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Render\Animation.h">
+      <Filter>Header Files\Stellar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Network\Packet.h">
+      <Filter>Header Files\Stellar\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Network\PingPacket.h">
+      <Filter>Header Files\Stellar\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Network\PacketHandler.h">
+      <Filter>Header Files\Stellar\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Network\Server.h">
+      <Filter>Header Files\Stellar\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Network\Client.h">
+      <Filter>Header Files\Stellar\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Utils\MusicHandler.h">
+      <Filter>Header Files\Stellar</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Stellar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\JSON\json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\JSON\json-forwards.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Debug\DebugTool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Debug\DebugBox2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Utils\ControllerInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Debug\Tools\ToolControllerInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Render\Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Render\ImageButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Render\Text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Render\MenuButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Render\Checkbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Render\Textbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Render\Paragraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Stellar\Render\Slider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
