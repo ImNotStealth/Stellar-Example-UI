@@ -5,6 +5,7 @@
 
 #include "Stellar/Core/Game.h"
 #include "Stellar/Core/AssetManager.h"
+#include "Stellar/Utils/MusicHandler.h"
 
 namespace Stellar {
 
@@ -25,6 +26,8 @@ namespace Stellar {
 			Game::Get().SetState<T>();
 			return;
 		}
+
+		MusicHandler::Get().Play("Sounds/Music/Biome/Floating Door - Lost in the woods.mp3", true);
 
 		std::vector<std::filesystem::path> files;
 		for (const auto& entry : std::filesystem::directory_iterator("Assets/Splash"))

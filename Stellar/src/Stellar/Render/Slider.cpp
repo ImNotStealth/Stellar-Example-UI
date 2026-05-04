@@ -10,8 +10,8 @@ namespace Stellar
 	Slider Slider::Create(const std::filesystem::path& _fontPath, sf::Vector2f _pos, float _value, float _minValue, float _maxValue, float _step, bool _useDecimals, unsigned int _fontSize)
 	{
 		Slider slider;
-		slider.spriteBG.setTexture(AssetManager::GetTexture("UI/Settings/Slider_Background.png"));
-		slider.spriteThumb = Utils::LoadSprite("UI/Settings/Slider_Thumb.png", true);
+		slider.spriteBG.setTexture(AssetManager::GetTexture("UI/Slider_Background.png"));
+		slider.spriteThumb = Utils::LoadSprite("UI/Slider_Thumb.png", true);
 		slider.SetSize(_fontSize);
 		slider.width = slider.spriteBG.getLocalBounds().width;
 		slider.minValue = _minValue;

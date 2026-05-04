@@ -151,16 +151,36 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Debug\ToolExample.cpp" />
+    <ClCompile Include="src\Debug\ToolPress.cpp" />
+    <ClCompile Include="src\Debug\ToolStructure.cpp" />
+    <ClCompile Include="src\Menu\Components\CategoryButton.cpp" />
+    <ClCompile Include="src\Menu\Components\OptionButton.cpp" />
+    <ClCompile Include="src\Menu\MenuBackground.cpp" />
+    <ClCompile Include="src\Menu\SaveEntry.cpp" />
+    <ClCompile Include="src\Menu\StateAsyncExample.cpp" />
+    <ClCompile Include="src\Menu\StateAsyncExample.h" />
+    <ClCompile Include="src\Menu\StateCreateWorld.cpp" />
+    <ClCompile Include="src\Menu\StateCredits.cpp" />
+    <ClCompile Include="src\Menu\StateLoading.cpp" />
     <ClCompile Include="src\Menu\StateMainMenu.cpp" />
     <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\Menu\StateTest.cpp" />
+    <ClCompile Include="src\Menu\StateSelectWorld.cpp" />
+    <ClCompile Include="src\Menu\StateSettings.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Debug\ToolExample.h" />
     <ClInclude Include="src\Common.h" />
+    <ClInclude Include="src\Debug\ToolPress.h" />
+    <ClInclude Include="src\Debug\ToolStructure.h" />
+    <ClInclude Include="src\Menu\Components\CategoryButton.h" />
+    <ClInclude Include="src\Menu\Components\OptionButton.h" />
+    <ClInclude Include="src\Menu\MenuBackground.h" />
+    <ClInclude Include="src\Menu\SaveEntry.h" />
+    <ClInclude Include="src\Menu\StateCreateWorld.h" />
+    <ClInclude Include="src\Menu\StateCredits.h" />
+    <ClInclude Include="src\Menu\StateLoading.h" />
     <ClInclude Include="src\Menu\StateMainMenu.h" />
-    <ClInclude Include="src\Menu\StateTest.h" />
+    <ClInclude Include="src\Menu\StateSelectWorld.h" />
+    <ClInclude Include="src\Menu\StateSettings.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

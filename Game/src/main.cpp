@@ -1,7 +1,8 @@
 ﻿#include <Stellar/Stellar.h>
 
 #ifdef STELLAR_DEBUG
-#include "Debug/ToolExample.h"
+#include "Debug/ToolPress.h"
+#include "Debug/ToolStructure.h"
 #endif
 
 #include <Stellar/Render/GameSplash.h>
@@ -11,12 +12,8 @@ using namespace Stellar;
 
 int main()
 {
-	Game::Get().SetSettings({ "Stellar Game" });
-#ifndef STELLAR_DEBUG
+	Game::Get().SetSettings({ "Godbreak" });
 	Game::Get().SetState<GameSplash<StateMainMenu>>();
-#else
-	Game::Get().SetState<StateMainMenu>();
-#endif
 	Game::Get().Run();
 	return 0;
 }

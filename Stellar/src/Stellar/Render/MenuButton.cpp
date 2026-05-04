@@ -8,7 +8,7 @@ namespace Stellar {
 
 	MenuButton MenuButton::Create(const std::filesystem::path& _fontPath, const std::string& _langKey, sf::Vector2f _pos, unsigned int _fontSize)
 	{
-		return Create(_fontPath, "UI/Settings/Button_Background.png", _langKey, _pos, _fontSize);
+		return Create(_fontPath, "UI/Button_Background.png", _langKey, _pos, _fontSize);
 	}
 
 	MenuButton MenuButton::Create(const std::filesystem::path& _fontPath, const std::filesystem::path& _spritePath, const std::string& _langKey, sf::Vector2f _pos, unsigned int _fontSize)

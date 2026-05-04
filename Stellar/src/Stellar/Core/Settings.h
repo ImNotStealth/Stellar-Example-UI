@@ -27,7 +27,10 @@ namespace Stellar {
 		// General
 		LangType language = LangType::EN_US;
 		GraphicsPreset graphicsPreset = GraphicsPreset::MEDIUM;
+		float simulationDistance = 2.f;
+		float cameraZoom = 1.f;
 		float uiScale = 1.f;
+		bool showTutorialHints = true;
 
 		// Display
 		bool isFullscreen = false;

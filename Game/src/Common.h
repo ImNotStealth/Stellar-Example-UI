@@ -3,7 +3,7 @@
 
 #include <Stellar/Stellar.h>
 
-#define UI_FONT_MAIN "Fonts/Octosquares.ttf"
+#define UI_FONT_MAIN "Fonts/RenegadePursuit.ttf"
 #define UI_FONT_TEXT "Fonts/Rexlia-Rg.ttf"
 #define CHECKBOX_TEXTURE "UI/Checkbox.png"
 

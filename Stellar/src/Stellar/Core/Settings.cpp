@@ -24,7 +24,10 @@ namespace Stellar {
 		std::getline(file, line); // [General]
 		ParseSetting(file, line, language);
 		ParseSetting(file, line, graphicsPreset);
+		ParseSetting(file, line, simulationDistance);
+		ParseSetting(file, line, cameraZoom);
 		ParseSetting(file, line, uiScale);
+		ParseSetting(file, line, showTutorialHints);
 		std::getline(file, line); // \n
 		std::getline(file, line); // [Display]
 		ParseSetting(file, line, isFullscreen);
@@ -62,7 +65,10 @@ namespace Stellar {
 		file << "[General]" << std::endl;
 		WriteSetting(file, "Language", language);
 		WriteSetting(file, "GraphicsPreset", graphicsPreset);
+		WriteSetting(file, "SimulationDistance", simulationDistance);
+		WriteSetting(file, "CameraZoom", cameraZoom);
 		WriteSetting(file, "UIScale", uiScale);
+		WriteSetting(file, "ShowTutorialHints", showTutorialHints);
 		file << std::endl;
 		file << "[Display]" << std::endl;
 		WriteSetting(file, "Fullscreen", isFullscreen);

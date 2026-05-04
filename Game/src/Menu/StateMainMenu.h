@@ -3,6 +3,8 @@
 
 #include <Stellar/Stellar.h>
 
+#include "MenuBackground.h"
+
 class StateMainMenu : public Stellar::GameState
 {
 public:
@@ -21,14 +23,12 @@ private:
 	sf::RectangleShape shapeFadeIn;
 	Stellar::Easing easeFadeIn;
 	
+	MenuBackground background;
 	sf::Sprite spriteLogo;
 	Stellar::Button buttonPlay;
 	Stellar::Button buttonSettings;
 	Stellar::Button buttonQuit;
-	Stellar::Text textExample;
-	Stellar::Paragraph paragraphExample;
-	Stellar::Checkbox checkbox;
-	Stellar::ImageButton imageButton;
+	Stellar::Text textCopyright;
 };
 
 #endif

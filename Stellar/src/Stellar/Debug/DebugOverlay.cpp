@@ -226,6 +226,7 @@ namespace Stellar {
 					Settings::Get().graphicsPreset = (GraphicsPreset)selectedPreset;
 				}
 
+				ImGui::DragFloat("Simulation Distance", &Settings::Get().simulationDistance, 0.1f, 1.5f, 5.f);
 				ImGui::DragFloat("UI Scale", &Settings::Get().uiScale, 0.25f, 0.75f, 1.25f);
 			}
 				
