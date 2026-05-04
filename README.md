@@ -32,4 +32,4 @@ Want to use the framework by itself? Get started on with the template repository
 > `Assets/Sprites/*`\
 > `Assets/UI/SelectCreateWorld/*`\
 > `Assets/UI/Background.png`\
-> `Assets/UI/Grass.png`\
+> `Assets/UI/Grass.png`
